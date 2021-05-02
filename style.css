@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  border-top: 4px solid #DC0000;
+  background: #15151E;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+table {
+  margin: 0rem 1rem;
+  position: relative;
+  width: calc(90vw - 2rem);
+  max-width: 800px;
+  border-spacing: 0 1rem;
+}
+
+table:before {
+  position: absolute;
+  content: '';
+  right: calc(100% + 1rem);
+  top: 0;
+  height: 100%;
+  width: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid #38383F;
+  background: repeating-linear-gradient(-45deg, #15151E 0px, #15151E 4px, #38383F 4px, #38383F 8px);
+}
+
+table tr > * {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+table tr > *:nth-child(2) {
+  text-align: left;
+}
+
+table th {
+  font-weight: 300;
+  letter-spacing: 0.04rem;
+  font-size: 0.9rem;
+  color: #eee;
+  text-transform: uppercase;
+}
+
+table td.position {
+  font-weight: 500;
+}
+
+table td.driver {
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+}
+table td.driver strong {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+table td.driver span {
+  text-transform: capitalize;
+  margin-left: 0.75rem;
+  font-size: 0.8rem;
+  color: #999;
+  letter-spacing: initial;
+}
+
+table td.point span {
+  background: #38383F;
+  border-radius: 30px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media (max-width: 500px) {
+  table tr > *:nth-child(3) {
+    display: none;
+  }
+}
