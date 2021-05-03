@@ -61,12 +61,6 @@ const leaderboard = [
   },
   {
     pos: '1',
-    name: 'YK - 944962',
-    team: 'advanced',
-    point: '1'
-  },
-  {
-    pos: '1',
     name: 'JD - 679743',
     team: 'intermediate',
     point: '1'
@@ -138,55 +132,55 @@ const leaderboard = [
     point: '1'
   },
   {
-    pos: '23',
+    pos: '22',
     name: 'AK - 654920',
     team: 'advanced',
     point: '0.5'
   },
   {
-    pos: '23',
+    pos: '22',
     name: 'NN - 764713',
     team: 'advanced',
     point: '0.5'
   },
   {
-    pos: '23',
+    pos: '22',
     name: 'IS - 712492',
     team: 'intermediate',
     point: '0.5'
   },
   {
-    pos: '23',
+    pos: '22',
     name: 'NJ - 732643',
     team: 'beginner',
     point: '0.5'
   },
   {
-    pos: '27',
+    pos: '26',
     name: 'AH - 772680',
     team: 'beginner',
     point: '0'
   },
   {
-    pos: '27',
+    pos: '26',
     name: 'AW - 680352',
     team: 'beginner',
     point: '0'
   },
   {
-    pos: '27',
+    pos: '26',
     name: 'HM - 681469',
     team: 'beginner',
     point: '0'
   },
   {
-    pos: '27',
+    pos: '26',
     name: 'MN - 853409',
     team: 'beginner',
     point: '0'
   },
   {
-    pos: '27',
+    pos: '26',
     name: 'PS - 703874',
     team: 'beginner',
     point: '0'
