@@ -7,127 +7,133 @@ const colors = {
 const leaderboard = [
   {
     pos: '1',
-    name: 'AA - 656231',
-    team: 'advanced',
-    point: '1'
-  },
-  {
-    pos: '1',
-    name: 'AH - 944942',
-    team: 'advanced',
-    point: '1'
-  },
-  {
-    pos: '1',
     name: 'DC - 722318',
     team: 'advanced',
-    point: '1'
+    point: '3'
   },
   {
     pos: '1',
     name: 'JW - 684244',
     team: 'advanced',
-    point: '1'
+    point: '3'
   },
   {
     pos: '1',
     name: 'NM - 944993',
     team: 'advanced',
-    point: '1'
+    point: '3'
   },
   {
     pos: '1',
     name: 'PT - 700164',
     team: 'advanced',
-    point: '1'
+    point: '3'
   },
   {
     pos: '1',
     name: 'RG - 700603',
     team: 'advanced',
-    point: '1'
+    point: '3'
   }, 
   {
     pos: '1',
     name: 'RM - 735259',
     team: 'advanced',
-    point: '1'
+    point: '3'
   },
   {
     pos: '1',
     name: 'SL - 654683',
     team: 'advanced',
-    point: '1'
-  },
-  {
-    pos: '1',
-    name: 'JD - 679743',
-    team: 'intermediate',
-    point: '1'
+    point: '3'
   },
   {
     pos: '1',
     name: 'YK - 944962',
     team: 'intermediate',
-    point: '1'
+    point: '3'
   },
   {
     pos: '1',
+    name: 'SR - 652547',
+    team: 'beginner',
+    point: '3'
+  },
+  {
+    pos: '10',
+    name: 'JD - 679743',
+    team: 'advanced',
+    point: '2.5'
+  },
+  {
+    pos: '10',
+    name: 'AA - 656231',
+    team: 'advanced',
+    point: '2.5'
+  },
+  {
+    pos: '12',
     name: 'AS - 716884',
     team: 'beginner',
+    point: '2'
+  },
+  {
+    pos: '12',
+    name: 'JK - 786450',
+    team: 'beginner',
+    point: '2'
+  },
+  {
+    pos: '12',
+    name: 'JS - 680704',
+    team: 'beginner',
+    point: '2'
+  },
+  {
+    pos: '12',
+    name: 'KJ - 851236',
+    team: 'beginner',
+    point: '2'
+  },
+  {
+    pos: '12',
+    name: 'MB - 685503',
+    team: 'beginner',
+    point: '2'
+  },
+  {
+    pos: '16',
+    name: 'NN - 764713',
+    team: 'advanced',
+    point: '1.5'
+  },
+  {
+    pos: '17',
+    name: 'AH - 944942',
+    team: 'advanced',
     point: '1'
   },
   {
-    pos: '1',
+    pos: '17',
     name: 'CR - 692031',
     team: 'beginner',
     point: '1'
   },
   {
-    pos: '1',
-    name: 'JK - 786450',
-    team: 'beginner',
-    point: '1'
-  },
-  {
-    pos: '1',
-    name: 'JS - 680704',
-    team: 'beginner',
-    point: '1'
-  },
-  {
-    pos: '1',
-    name: 'KJ - 851236',
-    team: 'beginner',
-    point: '1'
-  },
-  {
-    pos: '1',
+    pos: '17',
     name: 'KL - 666947',
     team: 'beginner',
     point: '1'
   },
   {
-    pos: '1',
-    name: 'MB - 685503',
-    team: 'beginner',
-    point: '1'
-  },
-  {
-    pos: '1',
+    pos: '17',
     name: 'MP - 717354',
     team: 'beginner',
     point: '1'
   },
   {
-    pos: '1',
+    pos: '17',
     name: 'OP - 684356',
-    team: 'beginner',
-    point: '1'
-  },
-  {
-    pos: '1',
-    name: 'SR - 652547',
     team: 'beginner',
     point: '1'
   },
@@ -139,14 +145,20 @@ const leaderboard = [
   },
   {
     pos: '22',
-    name: 'NN - 764713',
-    team: 'advanced',
+    name: 'IS - 712492',
+    team: 'intermediate',
     point: '0.5'
   },
   {
     pos: '22',
-    name: 'IS - 712492',
-    team: 'intermediate',
+    name: 'HM - 681469',
+    team: 'beginner',
+    point: '0.5'
+  },
+  {
+    pos: '22',
+    name: 'MN - 853409',
+    team: 'beginner',
     point: '0.5'
   },
   {
@@ -156,31 +168,19 @@ const leaderboard = [
     point: '0.5'
   },
   {
-    pos: '26',
+    pos: '27',
     name: 'AH - 772680',
     team: 'beginner',
     point: '0'
   },
   {
-    pos: '26',
+    pos: '27',
     name: 'AW - 680352',
     team: 'beginner',
     point: '0'
   },
   {
-    pos: '26',
-    name: 'HM - 681469',
-    team: 'beginner',
-    point: '0'
-  },
-  {
-    pos: '26',
-    name: 'MN - 853409',
-    team: 'beginner',
-    point: '0'
-  },
-  {
-    pos: '26',
+    pos: '27',
     name: 'PS - 703874',
     team: 'beginner',
     point: '0'
