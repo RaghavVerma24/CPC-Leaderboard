@@ -9,25 +9,25 @@ const leaderboard = [
     pos: '1',
     name: 'JD - 679743',
     team: 'advanced',
-    point: '10.5'
+    point: '12.5'
   },
   {
     pos: '2',
     name: 'SL - 654683',
     team: 'advanced',
-    point: '10'
+    point: '12'
   },
   {
     pos: '3',
-    name: 'MB - 685503',
-    team: 'beginner',
-    point: '9'
+    name: 'RM - 735259',
+    team: 'advanced',
+    point: '10.5'
   },
   {
     pos: '4',
-    name: 'RM - 735259',
-    team: 'advanced',
-    point: '8.5'
+    name: 'MB - 685503',
+    team: 'beginner',
+    point: '9'
   },
   {
     pos: '5',
