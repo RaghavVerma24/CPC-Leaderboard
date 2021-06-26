@@ -7,8 +7,8 @@ const colors = {
 const leaderboard = [
   {
     pos: '1',
-    name: 'JD - 679743',
-    team: 'advanced (winner)',
+    name: 'JD - 679743 (winner)',
+    team: 'advanced',
     point: '12.5'
   },
   {
@@ -25,8 +25,8 @@ const leaderboard = [
   },
   {
     pos: '4',
-    name: 'MB - 685503',
-    team: 'beginner (winner)',
+    name: 'MB - 685503 (winner)',
+    team: 'beginner',
     point: '9'
   },
   {
