@@ -8,7 +8,7 @@ const leaderboard = [
   {
     pos: '1',
     name: 'JD - 679743',
-    team: 'advanced',
+    team: 'advanced (winner)',
     point: '12.5'
   },
   {
@@ -26,7 +26,7 @@ const leaderboard = [
   {
     pos: '4',
     name: 'MB - 685503',
-    team: 'beginner',
+    team: 'beginner (winner)',
     point: '9'
   },
   {
